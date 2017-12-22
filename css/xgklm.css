@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+html{
+	width: 100%;
+	height: 100%;
+}
 body {
+	width: 100%;
+	height: 100%;
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -28,9 +34,9 @@ a:hover {
 }
 .clear { float:none; }
 
-.logo { height:126px; margin:0 auto; background-color: #c7d0d9;}
+.logo { height:126px; margin:0 auto; background-color: #c7d0d9;padding: 0px 200px;}
 .soso { width:314px; height:41px; float:right; display:inline; padding-top:50px; }
-.page_xypj {width: 800px; margin:0 auto; }
+.page_xypj {width:1000px; margin:0 auto;  }
 .dh {  background-color:#005faf; }
 #nav{width:1000px;height:50px; margin:0 auto;}
 .dh ul li{width:152px;height:50px;position:relative;float:left;line-height:50px;text-align:center;font-size:18px;z-index:999; }
@@ -39,18 +45,18 @@ a:hover {
 .dh ul li.nav_li0 a{width:132px;}
 .dh ul li a:hover{color:#fff;}
 .dh ul li.active{background:#db3126;}
-.dh ul li p{width:100%;display:none;position:absolute;left:0px;top:50px;padding:10px 0 5px;background: url(/images/nav_sub.png) repeat;font-size:14px; border-bottom:3px solid #db3126; z-index:1000;}
+.dh ul li p{width:100%;display:none;position:absolute;left:0px;top:50px;padding:10px 0 5px;background: url(img/xgklmlxfs.png) repeat;font-size:14px; border-bottom:3px solid #db3126; z-index:1000;}
 .dh ul li p a{width:100%;height:30px;line-height:30px;display:block;text-align:center;font-weight:normal;color:#444;}
 .dh ul li p a:hover{background:#db3126;color:#fff;font-weight:bold;}
 
 
 .page_two { margin-top:20px; height:568px; }
-.page_two_z { width:232px; height:100%; float:left; display:inline; }
+.page_two_z {width:232px; height:100%; float:left; display:inline; }
 .page_two_y { width:768px; height:100%; float:left; display:inline; }
 
 .xypj_wj { height:121px; margin-bottom:20px; }
-.xypjzx { height:249px; background:no-repeat; padding-top:158px; padding-left:18px; }
-.lxfs { padding-top:10px; overflow:hidden; }
+.xypjzx { height:300px;background:url(../img/timg.png) no-repeat; padding-top:110px; padding-left:18px; }
+.lxfs { padding-top:5px; overflow:hidden; }
 .t1 { float:left; display:inline; font-weight:bold; width:70px; }
 .t2 { float:left; display:inline; width:130px; font-size:13px; }
 
@@ -164,65 +170,7 @@ li.double { width:50%; float:left; display:inline; }
 	height:136px; 
 	width:143px;
 }
-.lianmenggaoxiao
-{
-	position: relative;
-	           top: 0px;
-	           left: 0px;
-	width: 80%;
-	margin: auto;
-	margin-bottom: 40px;
-}
-.lmgx1
-{
-	width: 16%;
-	height: 150PX;
-}
-.lmgx2
-{
-	position: absolute;
-	         top: 0px;
-	         left:21% ;
-	width: 16%;
-	height: 150PX;
-}
-.lmgx3
-{
-	position: absolute;
-	         top: 0px;
-	         left:42% ;
-	width: 16%;
-	height: 150PX;
-}
-.lmgx4
-{
-	position: absolute;
-	         top: 0px;
-	         left:63% ;
-	width: 16%;
-	height: 150PX;
-}
-.lmgx5
-{
-	position: absolute;
-	         top: 0px;
-	         left:84% ;
-	width: 16%;
-	height: 150PX;
-}
-.t1
-{
-	position: relative;
-	           top: 0px;
-	           left: 0px;
-	width: 80%;
-	height: 50px;
-	margin: auto;
-	margin-bottom: 10px;
-	text-align: center;
-	color: #24264f;
-	font-weight: bold;
-}
+
 .i3
 {
 	width: 100%;
@@ -256,4 +204,116 @@ li.double { width:50%; float:left; display:inline; }
 	text-align: left;
 	line-height: 1.5;
 	text-indent: 2em;
+}
+.lianmenggaoxiao
+{
+	position: relative;
+	           top: 0px;
+	           left: 0px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+.lmgx1
+{
+	width: 8%;
+	height: 70PX;
+}
+.lmgx2
+{
+	position: absolute;
+	         top: 0px;
+	         left:9% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx3
+{
+	position: absolute;
+	         top: 0px;
+	         left:18% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx4
+{
+	position: absolute;
+	         top: 0px;
+	         left:27% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx5
+{
+	position: absolute;
+	         top: 0px;
+	         left:36% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx6
+{
+	position: absolute;
+	         top: 0px;
+	         left:45% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx7
+{
+	position: absolute;
+	         top: 0px;
+	         left:54% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx8
+{
+	position: absolute;
+	         top: 0px;
+	         left:63% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx9
+{
+	position: absolute;
+	         top: 0px;
+	         left:72% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx10
+{
+	position: absolute;
+	         top: 0px;
+	         left:81% ;
+	width: 8%;
+	height: 70PX;
+}
+.lmgx11
+{
+	position: absolute;
+	         top: 0px;
+	         left:90% ;
+	width: 8%;
+	height: 70PX;
+}
+.i3
+{
+	width: 100%;
+	height: 70PX;
+}
+.ttt
+{
+	position: relative;
+	           top: 0px;
+	           left: 0px;
+	width: 80%;
+	height: 50px;
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #24264f;
+	font-weight: bold;
 }
