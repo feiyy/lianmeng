@@ -34,7 +34,7 @@ a:hover {
 }
 .clear { float:none; }
 
-.logo { height:126px; margin:0 auto; background-color: #c7d0d9;padding: 0px 200px;position: relative;top:0px;left:0px;}
+.logo { height:126px; margin:0 auto; padding: 0px 200px;position: relative;top:0px;left:0px;}
 .soso { width:314px; height:41px; float:right; display:inline; padding-top:50px; position: absolute;top:0px;left:65%;}
 .page_xypj {width:90%; margin:0 auto;  }
 .dh {  background-color:#005faf; }
